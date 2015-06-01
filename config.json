@@ -1,0 +1,32 @@
+{
+        "nickname":                     "SpudBridge",
+        "ident":                        "bridge",
+        "realname":                     "I'm sending spuds back and forth <3",
+
+        "servers":                      [
+                {
+                        "identifier":           "Spigot",
+                        "address":              "irc.spi.gt",
+                        "port":                 6697,
+                        "secure":               true,
+                        "channels":             ["#Akkarin"],
+                        "modes":                "+B"
+                },
+                {
+                        "identifier":           "Esper",
+                        "address":              "irc.esper.net",
+                        "port":                 6697,
+                        "secure":               true,
+                        "channels":             ["#Akkarin"],
+                        "modes":                ""
+                },
+                {
+                        "identifier":           "Freenode",
+                        "address":              "irc.freenode.net",
+                        "port":                 6697,
+                        "secure":               true,
+                        "channels":             ["##Akkarin"],
+                        "modes":                ""
+                }
+        ]
+}
